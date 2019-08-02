@@ -1,0 +1,35 @@
+.header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background: black;
+    padding: 10px;
+    height: 50px;
+    align-items: center;
+}
+
+.header .logo img {
+    margin-top: 15px;
+    height: 50px;
+}
+
+body {
+    margin: 0px;
+}
+
+.header .btn {
+    border: 0px;
+    height: 30px;
+    padding: 0 24px;
+    font-size: 14px;
+    margin-left: 32px;
+    line-height: 30px;
+    border-radius: 2px;
+    background-color: #d3d3d3;
+    outline: none;
+    cursor: pointer;
+}
+
+.header .btn.active {
+    background-color: white;
+}
