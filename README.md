@@ -14,7 +14,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## CORS issue:
 You might face CORS issue. Install following extension to resolve those issues:
+
 *Chrome* - https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
+
 *Firefox* - https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/
 
 
