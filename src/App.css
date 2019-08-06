@@ -25,11 +25,175 @@ body {
     margin-left: 32px;
     line-height: 30px;
     border-radius: 2px;
-    background-color: #d3d3d3;
+    background-color: #212020;
     outline: none;
     cursor: pointer;
+    color: white;
 }
 
 .header .btn.active {
-    background-color: white;
+    background-color: #2fc37e;
+}
+
+.body {
+    padding: 70px 0;
+    background-color: #212020;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row .movie-wrapper {
+    width: 232px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 20px 0;
+    color: white;
+    position: relative;
+}
+
+.movie-wrapper img {
+    border-radius: 3px;
+    margin-bottom: 6px;
+}
+
+.movie-wrapper .date-wrapper {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background-color: #2fc37e;
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.upvote-info {
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+
+.upvote-info svg {
+    color: #2fc37e;    
+}
+
+.play-icon {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    font-size: 38px;
+    opacity: 0.8;
+}
+
+.trailer-wrapper {
+    margin: 15px 0;
+    color: white;
+    display: flex;
+}
+
+.trailer {
+    width: 60%;
+    margin-left: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.movie-details {
+    width: 40%;
+    margin-right: 10px;
+    border-radius: 0 10px 10px 0;
+    text-align: left;
+    padding: 12px;
+    position: relative;
+}
+
+.movie-info {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.movie-info svg{
+    font-size: 24px;
+    display: block;
+    margin: 5px 10px 0px 10px;
+}
+
+.movie-title {
+    font-weight: bold;
+}
+
+.trailer-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.language {
+    color: #c3c3c3;
+    margin: 4px 0;
+}
+
+.tag {
+    border: 1px solid #c3c3c3;
+    color: #c3c3c3;
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.user-review {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    bottom: 10px;
+    font-size: 10px;
+    justify-content: space-evenly;
+}
+
+.user-review svg {
+    display: block;
+    font-size: 20px;
+    margin: 10px 10px;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 100%;
+}
+
+.will-watch {
+    color: #2fc37e;
+}
+
+.wont-watch {
+    color: red;
+}
+
+.maybe-watch {
+    color: orange;
+}
+
+.maybe-watch svg {
+    padding: 8px 12px;
+    margin: 10px 0px;
+}
+
+.wont-watch svg {
+    margin: 10px 15px;
 }
