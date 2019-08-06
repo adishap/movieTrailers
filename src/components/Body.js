@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import LazyLoad from 'react-lazy-load';
 import { MoviesData } from '../fixture/completeMoviesData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTimes, faThumbsUp, faThumbsDown, faPlayCircle, faCalendar, faQuestion } from '@fortawesome/free-solid-svg-icons'
+import { faTimes, faThumbsUp, faThumbsDown, faPlayCircle, faCalendar, faQuestion, faSpinner } from '@fortawesome/free-solid-svg-icons'
 
 const FetchStatus = {
     LOADING: 'LOADING',
@@ -177,7 +177,7 @@ class Body extends Component {
         if (this.state.currentState === FetchStatus.LOADING) {
             return (
                 <div className='loading'>
-                    Loading
+                    <FontAwesomeIcon icon={faSpinner} spin />
                 </div>
             );
         }
